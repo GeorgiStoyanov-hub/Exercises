@@ -29,7 +29,7 @@ void tower_of_hanoi(int number_of_disks, char start, char end, char temp){
     printf("This is depth %d\n", counter);
     printf("Start is %c : End is %c : Temp is %c\n", start, end, temp);
     printf("Move disk %d from %c to %c \n", number_of_disks, start, end);
-    printf("Going down...\n");
+    printf("Going down for second type recursion...\n");
 
     tower_of_hanoi(number_of_disks - 1, temp, end, start);
     printf("This recursion is done!\n");
