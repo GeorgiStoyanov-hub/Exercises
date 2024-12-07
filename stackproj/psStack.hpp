@@ -39,6 +39,6 @@ public:
     std::size_t stackSize() const noexcept;
 };
 
-#include "psStack.tpp"  // Ensure this file is included to handle template code
+#include "psStack.tpp"
 
 #endif
